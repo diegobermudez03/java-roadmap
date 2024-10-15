@@ -3,19 +3,13 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.diegoBermudez</groupId>
+        <artifactId>java_roadmap</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
 
-    <groupId>com.diegoBermudez</groupId>
-    <artifactId>java_roadmap</artifactId>
-    <version>1.0-SNAPSHOT</version>
-    <packaging>pom</packaging>
-
-    <modules>
-        <module>01_core_java_fundamentals</module>
-        <module>02_advanced_java</module>
-        <module>03_io_nio_streams_files</module>
-        <module>04_concurrency_threads</module>
-        <module>05_java_8_lamda_streams_optionals_time</module>
-    </modules>
+    <artifactId>05_java_8_lamda_streams_optionals_time</artifactId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
