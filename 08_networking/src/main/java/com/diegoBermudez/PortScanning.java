@@ -14,7 +14,7 @@ public class PortScanning {
         for(int i = 0; i < 65535; i++){
             try {
                 sock = new Socket(address, i);
-                System.out.println("Port " + i + " is opened");
+                System.out.println("Port " + i + " is open");
                 sock.close();
             } catch (IOException e) {
             }
