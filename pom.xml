@@ -17,6 +17,7 @@
         <module>05_java_8_lamda_streams_optionals_time</module>
         <module>06_java_10_to_17</module>
         <module>07_database_connectivity</module>
+        <module>08_networking</module>
     </modules>
 
     <properties>
